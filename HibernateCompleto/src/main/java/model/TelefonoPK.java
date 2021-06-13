@@ -1,10 +1,8 @@
 package model;
 
 import java.io.Serializable;
-
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,9 +18,6 @@ import lombok.NoArgsConstructor;
 @Embeddable
 public class TelefonoPK implements Serializable 
 {
-	@Column(length=25)
-	private String numero;
-	
-	@Column(length=25)
-	private String company;
+	@Column(length=25) private String numero;
+	@Column(length=25) private String company;
 }

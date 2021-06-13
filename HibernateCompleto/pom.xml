@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ejercicio</groupId>
-	<artifactId>HibernateCompleto</artifactId>
+	<artifactId>HibernateEjemplo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>HibernateCompleto</name>
+	<name>HibernateEjemplo</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
